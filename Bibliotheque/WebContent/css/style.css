@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #5881B9;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    width: 45%;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:hover {
+	color:gray;
+}
+
+.bibliotheque {
+    
+    margin-left: 35px;
+    font-size: 20px;
+   
+}
+
+.bibliotheque a {
+    color:white;
+}
+
+.nav-links a {
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    
+}
+
+.img-biblio {
+    display: flex;
+    margin-left: 5%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'DIN Condensed';
+    color: #5881B9;
+    font-size: 130px;
+}
+
+.simplon {
+    font-family: 'DIN Condensed';
+   
+    font-size: 100px;
+}
+
+.ListeAbo {
+	margin-top: 50px;
+	text-align:center;
+	margin-bottom: 50px;
+}
+
+.tableau-abonne {
+		display: flex;
+		justify-content: center;
+}
+
+table {
+    width: 30%;
+    padding: 20px;
+    }
+
+    td {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    width: 30%;
+    padding: 20px;
+    }
+.inscrip { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+.desinscrire {
+	font-family: 'Montserrat';
+    background-color: #5881B9;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.modifier {
+	font-family: 'Montserrat';
+    background-color: #5881B9;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.format {
+    
+    margin: 0 auto;
+    width: 400px;
+    
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+
+  label {
+    
+    display: inline-block;
+    width: 160px;
+    text-align: right;
+  }
+
+  input, textarea {
+    
+    font: 'Monserrat' 1em sans-serif;
+
+  
+  width: 150px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+
+    border-color: #000;
+  }
+  
+  textarea {
+  
+    vertical-align: top;
+
+    height: 5em;
+  }
+  
+  .button {
+    
+    padding-left: 90px; 
+  }
+  
+  
+
+  .valider {
+
+    margin-left: 280px;
+    background-color: #5881B9;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+  }
+
+  form div {
+      margin-top: 1.5em;
+  }
+  
+  .livres {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 30px;
+  }
+
+  .introduction {
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  .new {
+      font-family: 'DIN Condensed';
+      color: #5881B9;
+      text-align: center;
+      margin-top: 50px;
+  }
+
+  .book {
+      text-align: center;
+      margin-top: 4px;
+      font-size: 13px;
+  }
